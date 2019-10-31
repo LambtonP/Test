@@ -109,6 +109,12 @@
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outletCollection property="choices" destination="h9S-hO-Qqh" collectionClass="NSMutableArray" id="h18-mj-2CW"/>
+                        <outletCollection property="choices" destination="Zec-5b-Jry" collectionClass="NSMutableArray" id="pNO-Ub-NVe"/>
+                        <outletCollection property="choices" destination="For-lj-scW" collectionClass="NSMutableArray" id="NMv-JB-Per"/>
+                        <outletCollection property="choices" destination="4J4-ek-nZP" collectionClass="NSMutableArray" id="OIE-bb-bSW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
